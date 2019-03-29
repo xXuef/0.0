@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/image_gv_jq"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/banner1" />
+
+    <TextView
+        android:id="@+id/tv_gv_jq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="wqweqe"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+</RelativeLayout>

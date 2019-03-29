@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/confirm_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:layout_marginLeft="8dp"
+            android:background="@null"
+            android:text="@string/cancel"
+            android:textColor="@color/stabar_color"
+            android:textSize="16sp" />
+
+        
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+             android:gravity="center|right"
+             android:layout_marginRight="8dp"
+            android:background="@null"
+            android:text="@string/ok"
+            android:textColor="@color/stabar_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/dialog_line_color"
+        android:padding="1dp" />
+
+    <LinearLayout
+        android:id="@+id/date_selelct_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <net.m56.ckkj.mobile.tourism.base.view.wheelview.WheelView
+            android:id="@+id/year"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dip"
+            android:padding="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/deep_gray"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="年"/>
+        <net.m56.ckkj.mobile.tourism.base.view.wheelview.WheelView
+            android:id="@+id/month"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:padding="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/deep_gray"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="月"/>
+        <net.m56.ckkj.mobile.tourism.base.view.wheelview.WheelView
+            android:id="@+id/day"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/deep_gray"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_marginRight="5dip"
+            android:text="日"/>
+    </LinearLayout>
+
+</LinearLayout>

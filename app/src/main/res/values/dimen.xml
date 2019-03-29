@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--text dimens-->
+    <dimen name="txt_normal">16sp</dimen>
+    <dimen name="text_toolbar">18sp</dimen>
+
+    <!-- 全局-->
+    <dimen name="title_height">45dp</dimen>
+</resources>

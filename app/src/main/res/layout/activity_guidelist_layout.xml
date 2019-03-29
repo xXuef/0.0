@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/moutainLl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dip">
+
+            <ImageView
+                android:id="@+id/guideimg1"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:scaleType="center"
+                android:src="@mipmap/banner1" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dip"
+                android:layout_toRightOf="@+id/guideimg1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/guideTv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="卦山书院"
+                    android:textSize="@dimen/txt_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/guideTv1"
+                    android:layout_marginTop="20dip"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="荟萃了大儒读书人" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                android:src="@mipmap/start_comment_y" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@color/white"
+            android:padding="10dip">
+
+            <ImageView
+                android:id="@+id/guideimg2"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:scaleType="center"
+                android:src="@mipmap/guashan2" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dip"
+                android:layout_toRightOf="@+id/guideimg2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/guideTv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="天宁寺"
+                    android:textSize="@dimen/txt_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/guideTv2"
+                    android:layout_marginTop="20dip"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="卦山天宁寺位于交城县城西北，卦山，因山形如卦象而得名。" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                android:src="@mipmap/start_comment_y" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@color/white"
+            android:padding="10dip">
+
+            <ImageView
+                android:id="@+id/guideimg3"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:scaleType="center"
+                android:src="@mipmap/guashan1" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dip"
+                android:layout_toRightOf="@+id/guideimg3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/guideTv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="古柏"
+                    android:textSize="@dimen/txt_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/guideTv3"
+                    android:layout_marginTop="20dip"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="卦山古柏扎根于悬崖绝壁，钻岩抱石，姿态各异，著名的有龙抓柏、牛头柏、连理柏、文武柏等，" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                android:src="@mipmap/start_comment_y" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/waterLl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dip">
+
+            <ImageView
+                android:id="@+id/guideimg11"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:scaleType="center"
+                android:src="@mipmap/pqg2" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dip"
+                android:layout_toRightOf="@+id/guideimg11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/guideTv11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="龙泉瀑布"
+                    android:textSize="@dimen/txt_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/guideTv11"
+                    android:layout_marginTop="20dip"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="山脚下大沙沟内水声轰鸣，一股清泉从陡岩悬石上飞流直下而为文源，" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                android:src="@mipmap/start_comment_y" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@color/white"
+            android:padding="10dip">
+
+            <ImageView
+                android:id="@+id/guideimg22"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:scaleType="center"
+                android:src="@mipmap/pqg1" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dip"
+                android:layout_toRightOf="@+id/guideimg22"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/guideTv22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="古树宝塔"
+                    android:textSize="@dimen/txt_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/guideTv22"
+                    android:layout_marginTop="20dip"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="三株巨松一字排开，顶天立地，形似宝塔昂然屹立，树梢的松球随风摇动，恰似塔上悬挂的风铃，" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                android:src="@mipmap/start_comment_y" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@color/white"
+            android:padding="10dip">
+
+            <ImageView
+                android:id="@+id/guideimg33"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:scaleType="center"
+                android:src="@mipmap/pqg3" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dip"
+                android:layout_toRightOf="@+id/guideimg33"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/guideTv33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="庞泉沟水上乐园"
+                    android:textSize="@dimen/txt_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/guideTv33"
+                    android:layout_marginTop="20dip"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="位于山西交城县的庞泉沟水上乐园为华北地区规模最大的水上乐园，拥有国内最大的大喇叭" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/start_comment_y" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/templeLl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dip">
+
+            <ImageView
+                android:id="@+id/guideimg111"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:scaleType="center"
+                android:src="@mipmap/xzs1" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dip"
+                android:layout_toRightOf="@+id/guideimg111"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/guideTv111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="大雄宝殿"
+                    android:textSize="@dimen/txt_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/guideTv111"
+                    android:layout_marginTop="20dip"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="大雄宝殿是玄中寺的主体建筑，面阔五间，长约25米，宽约20米，单檐歇山式。" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                android:src="@mipmap/start_comment_y" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@color/white"
+            android:padding="10dip">
+
+            <ImageView
+                android:id="@+id/guideimg222"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:scaleType="center"
+                android:src="@mipmap/xzs3" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dip"
+                android:layout_toRightOf="@+id/guideimg222"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/guideTv222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="七佛殿"
+                    android:textSize="@dimen/txt_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/guideTv222"
+                    android:layout_marginTop="20dip"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="七佛殿，建于清咸丰十一年（1816），单檐歇山式，当心间前廊柱下的两个石础名叫" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                android:src="@mipmap/start_comment_y" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@color/white"
+            android:padding="10dip">
+
+            <ImageView
+                android:id="@+id/guideimg333"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:scaleType="center"
+                android:src="@mipmap/xzs2" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dip"
+                android:layout_toRightOf="@+id/guideimg333"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/guideTv333"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="千佛殿"
+                    android:textSize="@dimen/txt_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/guideTv333"
+                    android:layout_marginTop="20dip"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="嘎绒寺位于雄龙西乡雄龙西扎呷神山主峰脚下，距县城40公里" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                android:src="@mipmap/start_comment_y" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

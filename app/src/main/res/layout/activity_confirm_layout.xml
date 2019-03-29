@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_color"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/oldconfirmRl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="30dip"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/oldconfirmEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/icon_login_password"
+            android:drawablePadding="8dip"
+            android:hint="请输入旧密码"
+            android:textColor="@color/white"
+            android:paddingBottom="15dip"
+            android:textColorHint="@color/tabitem_color2" />
+
+        <ImageView
+            android:id="@+id/oldlookIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dip"
+            android:src="@mipmap/icon_login_look" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/newconfirmRl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="20dip"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/newconfirmEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/icon_comfirmpass"
+            android:drawablePadding="8dip"
+            android:hint="请输入新密码"
+            android:textColor="@color/white"
+            android:paddingBottom="15dip"
+            android:textColorHint="@color/tabitem_color2" />
+
+        <ImageView
+            android:id="@+id/newlookIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dip"
+            android:src="@mipmap/icon_login_look" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/newokRl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="20dip"
+        android:visibility="gone"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/newokEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/icon_comfirmpass"
+            android:drawablePadding="8dip"
+            android:hint="请确认新密码"
+            android:textColor="@color/white"
+            android:paddingBottom="15dip"
+            android:textColorHint="@color/tabitem_color2" />
+
+        <ImageView
+            android:id="@+id/newoklookIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dip"
+            android:src="@mipmap/icon_login_look" />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/confirmOkBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:layout_marginTop="40dip"
+        android:background="@drawable/login_bg"
+        android:text="@string/finish"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_big" />
+</LinearLayout>

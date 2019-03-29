@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/system_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/modifypersondataRl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/modifypersonalTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:drawableLeft="@mipmap/icon_xiugaigerenziliao"
+            android:drawablePadding="10dip"
+            android:drawableRight="@mipmap/icon_more"
+            android:gravity="center_vertical"
+           android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="18dip"
+            android:paddingBottom="18dip"
+            android:text="修改个人资料" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@+id/modifypersonalTv"
+            android:background="@color/line_bg" />
+
+        <TextView
+            android:id="@+id/modifypassTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line"
+            android:background="@color/white"
+            android:drawableLeft="@mipmap/icon_xiugaimima"
+            android:drawablePadding="10dip"
+            android:drawableRight="@mipmap/icon_more"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="18dip"
+            android:paddingBottom="18dip"
+            android:text="修改密码" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip">
+     <RelativeLayout
+         android:id="@+id/clearRl"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@color/white"
+         android:paddingLeft="10dip"
+         android:paddingRight="10dip"
+         android:paddingTop="18dip"
+         android:paddingBottom="18dip"
+         android:orientation="horizontal">
+         <TextView
+             android:id="@+id/clear"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:drawableLeft="@mipmap/icon_qingchuhuancun"
+             android:drawablePadding="10dip"
+             android:text="清除缓存" />
+         <TextView
+             android:id="@+id/clearTv"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@color/white"
+             android:layout_alignParentRight="true"
+             android:gravity="right"
+             android:text="0.0M"
+             android:layout_toRightOf="@id/clear" />
+     </RelativeLayout>
+
+
+        <View
+            android:id="@+id/line01"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@+id/clearRl"
+            android:background="@color/line_bg" />
+
+        <TextView
+            android:id="@+id/updataTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line01"
+            android:background="@color/white"
+            android:drawableLeft="@mipmap/icon_jianchagengxin"
+            android:drawablePadding="10dip"
+            android:drawableRight="@mipmap/icon_more"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="18dip"
+            android:paddingBottom="18dip"
+            android:text="检查更新" />
+
+        <View
+            android:id="@+id/line02"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@+id/updataTv"
+            android:background="@color/line_bg" />
+
+        <TextView
+            android:id="@+id/aboutTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line02"
+            android:background="@color/white"
+            android:drawableLeft="@mipmap/icon_guanyuruanjian"
+            android:drawablePadding="10dip"
+            android:drawableRight="@mipmap/icon_more"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="18dip"
+            android:paddingBottom="18dip"
+            android:text="关于软件" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/loginoutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/loginout_bg"
+        android:text="退出登录"
+        android:textSize="16dip"
+        android:textColor="@color/white" />
+</LinearLayout>

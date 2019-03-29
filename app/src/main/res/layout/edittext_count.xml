@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+>
+             
+    <EditText
+        android:id="@+id/conEt"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#ffffff"
+        android:focusable="true"
+        android:gravity="top"
+        android:textSize="@dimen/text_size_middle"
+        android:hint="您的反馈将帮助我们更快地成长~"
+        android:textColorHint="@color/dashline_color"
+        android:textColor="@color/textcolor_black"
+        android:focusableInTouchMode="true"
+         >
+    </EditText>
+
+    <TextView
+        android:id="@+id/countTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/conEt"
+        android:layout_alignRight="@+id/conEt"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/bg_Gray" />
+
+    <TextView
+        android:id="@+id/gradeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/countTv"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>

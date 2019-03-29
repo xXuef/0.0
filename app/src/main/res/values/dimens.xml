@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="text_size_middle">15sp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="txt_min_sosmall">9sp</dimen>
+    <dimen name="subtitle_setting_font">17dip</dimen>
+    <dimen name="text_size_big">18sp</dimen>
+    <dimen name="global_left_double_padding">20dip</dimen>
+    <dimen name="global_right_double_padding">20dip</dimen>
+    <dimen name="global_top_padding">10dip</dimen>
+    <dimen name="global_bottom_padding">10dip</dimen>
+    <dimen name="global_bottom_double_padding">20dip</dimen>
+    <dimen name="global_left_padding">10dip</dimen>
+    <dimen name="global_double_padding">10dip</dimen>
+    <dimen name="global_right_padding">10dip</dimen>
+    <dimen name="global_padding">5dip</dimen>
+    <dimen name="register_top_width">51dip</dimen>
+    <dimen name="video_play_heigh">200.0dip</dimen>
+
+
+</resources>

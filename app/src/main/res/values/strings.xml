@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">智慧旅游</string>
+    <string name="user_password_notnull">用户密码不能为空!</string>
+    <string name="user_account_notnull">用户帐号不能为空!</string>
+    <string name="to_network_success">成功!</string>
+    <string name="to_network_error">访问失败,请检查网络!</string>
+    <string name="to_gson_format_error">解析失败,请重试!</string>
+    <string name="to_network_runtime_exception">访问网络异常,请联系客户!</string>
+    <!-- 访问成功 -->
+    <string name="to_network_success_code">200</string>
+    <!--系统错误-->
+    <string name="to_network_system_error_code">201</string>
+    <!--参数错误-->
+    <string name="to_network_parameter_error_code">202</string>
+    <!--接口指令错误-->
+    <string name="to_network_Interface_error">203</string>
+    <!--未登陆-->
+    <string name="to_network_not_login">204</string>
+    <!--登陆超时-->
+    <string name="to_network_login_timeout">205</string>
+    <!--无权限-->
+    <string name="to_network_without_permission">206</string>
+
+
+    <string name="never_remind">不再提醒</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="finish">完成</string>
+    <string name="total">共%s</string>
+
+</resources>

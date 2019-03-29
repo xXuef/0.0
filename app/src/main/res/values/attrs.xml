@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="CropImageView">
+        <attr name="guidelines">
+            <enum name="on" value="2" />
+            <enum name="onTouch" value="1" />
+            <enum name="off" value="0" />
+        </attr>
+        <attr name="fixAspectRatio" format="boolean" />
+        <attr name="aspectRatioX" format="integer" />
+        <attr name="aspectRatioY" format="integer" />
+        <attr name="imageResource" format="reference" />
+        <attr name="ratingBarStyleSmall" format="reference" />
+    </declare-styleable>
+
+
+
+
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+    </declare-styleable>
+    <declare-styleable name="qr_ViewfinderView">
+        <attr name="qr_angleColor" format="color"/>
+        <attr name="qr_hint" format="string"/>
+        <attr name="qr_textHintColor" format="color"/>
+        <attr name="qr_errorHint" format="string"/>
+        <attr name="qr_textErrorHintColor" format="color"/>
+        <attr name="qr_offsetX" format="integer"/>
+        <attr name="qr_offsetY" format="integer"/>
+        <attr name="qr_showPossiblePoint" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="EditTextWithCount">
+        <attr name="count" format="integer" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layoutAnimation="@anim/listview_jq"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/openRl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:visibility="visible"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="当前位置：庞泉沟景区自然保护区"/>
+        <ImageView
+            android:id="@+id/openIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/start_comment_y"/>
+    </RelativeLayout>
+
+</RelativeLayout>

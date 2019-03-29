@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/system_bg">
+
+    <LinearLayout
+        android:id="@+id/inputLl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:padding="3dip"
+            android:text="您有什么问题想对我们说"
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/text_size_big" />
+
+        <net.m56.ckkj.mobile.tourism.base.view.XsEditTextWithCount
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="15dip"
+            android:text="请留下您的联系方式"
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/text_size_big" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:background="@color/white"
+            android:hint="必填，便于我们和您联系"
+            android:inputType="phone"
+            android:padding="15dip"
+            android:textColor="@color/textcolor_black"
+            android:textColorHint="@color/dashline_color"
+            android:textSize="@dimen/text_size_middle" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submitbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputLl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:layout_marginTop="40dip"
+        android:background="@drawable/loginout_bg"
+        android:padding="10dip"
+        android:text="提交"
+        android:textColor="@color/white" />
+</RelativeLayout>
